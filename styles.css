@@ -129,7 +129,7 @@ h1 {
   line-height: 1.5;
 }
 
-.seo-block a {
+.seo-block p a {
   color: var(--accent-strong);
 }
 
