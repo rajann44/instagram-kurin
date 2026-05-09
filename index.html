@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean Feed Launcher</title>
+    <meta
+      name="description"
+      content="A simple launcher for Instagram Following and Favorites feeds."
+    />
+    <meta name="theme-color" content="#f6f5f2" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Clean Feed Launcher" />
+    <meta
+      property="og:description"
+      content="Open Instagram Following and Favorites feeds with one tap."
+    />
+    <meta property="og:image" content="social/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Clean Feed Launcher" />
+    <meta
+      name="twitter:description"
+      content="Open Instagram Following and Favorites feeds with one tap."
+    />
+    <meta name="twitter:image" content="social/og-image.png" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="icons/app-icon.svg" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card">
+        <p class="eyebrow">Instagram, but cleaner</p>
+        <h1>Open your feed by intent</h1>
+        <p class="lede">
+          Use direct links to jump to Following or Favorites views with less noise.
+        </p>
+
+        <div class="actions">
+          <a
+            class="btn btn-primary"
+            href="https://www.instagram.com/?variant=following"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-track="following"
+          >
+            Open Following
+          </a>
+          <a
+            class="btn btn-secondary"
+            href="https://www.instagram.com/?variant=favorites"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-track="favorites"
+          >
+            Open Favorites
+          </a>
+        </div>
+
+        <div class="small-actions">
+          <button class="ghost" id="copy-link" type="button">Copy this app link</button>
+          <button class="ghost" id="share-link" type="button">Share</button>
+        </div>
+
+        <p class="note" id="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="footnote">
+      Not affiliated with Instagram or Meta. Ordering and availability depend on
+      Instagram.
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

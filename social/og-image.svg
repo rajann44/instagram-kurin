@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Clean Feed Launcher Social Preview</title>
+  <desc id="desc">Preview card with clean feed launcher branding and Following/Favorites text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe9dd"/>
+      <stop offset="100%" stop-color="#dce6e8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fcfbf8"/>
+      <stop offset="100%" stop-color="#f5f1e9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="108" cy="90" r="170" fill="#f8f3e9" opacity="0.8"/>
+  <circle cx="1120" cy="590" r="210" fill="#d7ebe5" opacity="0.8"/>
+
+  <rect x="120" y="90" width="960" height="450" rx="54" fill="url(#panel)" stroke="#d8d2c9" stroke-width="4"/>
+
+  <g transform="translate(180 165)">
+    <rect x="0" y="0" width="132" height="132" rx="34" fill="#fcfbf8" stroke="#d8d2c9" stroke-width="5"/>
+    <rect x="22" y="30" width="88" height="12" rx="6" fill="#b7cac6"/>
+    <rect x="22" y="56" width="62" height="12" rx="6" fill="#b7cac6"/>
+    <rect x="22" y="82" width="44" height="12" rx="6" fill="#b7cac6"/>
+    <path d="M72 90l12 12 21-23" fill="none" stroke="#0f766e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  </g>
+
+  <text x="340" y="210" fill="#1f1f1f" font-family="Avenir Next, Segoe UI, sans-serif" font-size="58" font-weight="700">
+    Clean Feed Launcher
+  </text>
+  <text x="340" y="270" fill="#4e4e4e" font-family="Avenir Next, Segoe UI, sans-serif" font-size="34">
+    Open Instagram feeds by intent
+  </text>
+
+  <g transform="translate(340 330)">
+    <rect width="252" height="64" rx="18" fill="#0f766e"/>
+    <text x="36" y="42" fill="#f8fffd" font-family="Avenir Next, Segoe UI, sans-serif" font-size="30" font-weight="600">Following</text>
+  </g>
+
+  <g transform="translate(612 330)">
+    <rect width="252" height="64" rx="18" fill="#ece7de" stroke="#d8d2c9" stroke-width="2"/>
+    <text x="38" y="42" fill="#2a2a2a" font-family="Avenir Next, Segoe UI, sans-serif" font-size="30" font-weight="600">Favorites</text>
+  </g>
+</svg>
