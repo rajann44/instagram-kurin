@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajann44.github.io/instagram-kurin/sitemap.xml

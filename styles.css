@@ -112,6 +112,27 @@ h1 {
   flex-wrap: wrap;
 }
 
+.seo-block {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.seo-block h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.05rem;
+}
+
+.seo-block p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.seo-block a {
+  color: var(--accent-strong);
+}
+
 .ghost {
   border: 1px solid var(--line);
   background: transparent;
