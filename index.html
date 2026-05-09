@@ -51,38 +51,74 @@
     </script>
   </head>
   <body>
+    <div class="shell topbar-wrap">
+      <header class="topbar">
+        <a class="brand" href="./">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Clean Feed Launcher</span>
+        </a>
+        <nav class="topnav" aria-label="Primary">
+          <a href="following.html">Following</a>
+          <a href="favorites.html">Favorites</a>
+          <a href="following-vs-favorites.html">Guide</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+    </div>
     <main class="shell">
+      <section class="hero-wave" aria-hidden="true">
+        <div class="hero-wave__glow"></div>
+        <div class="hero-wave__layer hero-wave__layer--one"></div>
+        <div class="hero-wave__layer hero-wave__layer--two"></div>
+        <div class="hero-wave__layer hero-wave__layer--three"></div>
+        <div class="hero-wave__text">
+          <p>Launch the feed you actually want</p>
+          <span>Use direct shortcuts for a cleaner Instagram session.</span>
+        </div>
+      </section>
+
       <section class="card">
         <p class="eyebrow">Instagram, but cleaner</p>
-        <h1>Open your feed by intent</h1>
+        <h1>Choose your feed and open Instagram in one tap</h1>
         <p class="lede">
-          Use direct links to jump to Following or Favorites views with less noise.
+          This app gives you direct shortcuts to Instagram's cleaner feed modes.
+          Pick one option below based on what you want to see.
         </p>
 
-        <div class="actions">
-          <a
-            class="btn btn-primary"
-            href="https://www.instagram.com/?variant=following"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-track="following"
-          >
-            Open Following
-          </a>
-          <a
-            class="btn btn-secondary"
-            href="https://www.instagram.com/?variant=favorites"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-track="favorites"
-          >
-            Open Favorites
-          </a>
-        </div>
+        <div class="action-grid">
+          <article class="action-card action-card-primary">
+            <p class="action-title">Following Feed</p>
+            <p class="action-copy">
+              See posts from all accounts you follow, usually closer to
+              chronological order.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://www.instagram.com/?variant=following"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-track="following"
+            >
+              Open Following on Instagram
+            </a>
+          </article>
 
-        <div class="small-actions">
-          <button class="ghost" id="copy-link" type="button">Copy this app link</button>
-          <button class="ghost" id="share-link" type="button">Share</button>
+          <article class="action-card">
+            <p class="action-title">Favorites Feed</p>
+            <p class="action-copy">
+              See posts from people you marked as Favorites so important updates
+              appear first.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.instagram.com/?variant=favorites"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-track="favorites"
+            >
+              Open Favorites on Instagram
+            </a>
+          </article>
         </div>
 
         <section class="seo-block">
