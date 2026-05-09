@@ -44,6 +44,21 @@ Then open `http://localhost:8080`.
 2. In repo settings, enable Pages from `main` branch root.
 3. Wait for deployment and use the generated URL.
 
+## Deploy on GitHub Pages (step-by-step)
+
+1. Open your repo: `https://github.com/rajann44/instgram-kurin`.
+2. Go to `Settings` -> `Pages`.
+3. Under **Build and deployment**, choose:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/ (root)`
+4. Click **Save**.
+5. Wait 1 to 3 minutes and refresh the Pages screen.
+6. Your live URL should appear as:
+   - `https://rajann44.github.io/instgram-kurin/`
+
+If you do not see the site, check the `Actions` tab for a failed Pages deployment.
+
 ## Important constraints
 
 - Feed order and available variants are controlled by Instagram.
